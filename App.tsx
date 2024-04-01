@@ -29,6 +29,16 @@ function App() {
                 </div>
             </header>
 
+            <div className="bg-white-200 p-4">
+                    <div className="flex justify-center items-center">
+                        <div className="mr-4">
+                            <p className="font-bold text-xl">Entregue sucesso agora <br/>com o Salesforce Customer 360.</p>
+                            <p>O Customer 360 é a nossa suíte de produtos e serviços que ajuda <br/>98% dos clientes a alcançar ou superar suas metas de ROI.</p>
+                        </div>
+                        <img src="/imagem1.webp" alt="Imagem 1" width="200" height="200" />
+                    </div>
+                </div>
+
                 <main className="flex-grow bg-gray-500">
                     <Routes>
                         <Route path="/" element={<Funcoes />} />
