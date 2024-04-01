@@ -12,18 +12,22 @@ import {
 function App() {
     return (
         <Router>
-            <div className="flex flex-col min-h-screen">
-                <header className="bg-gradient-to-r from-blue-800 to-blue-500 text-white p-4">
-                    <h1 className="text-3xl">SalesForce</h1>
-                </header>
-
-                <nav>
-                    <ul className="flex justify-center space-x-4 p-3">
-                        <li><Link to="/" className="hover:text-blue-500">HOME</Link></li>
-                        <li><Link to="/Guia" className="hover:text-blue-500">Guia</Link></li>
-                        <li><Link to="/Daltonismo" className="hover:text-blue-500">Daltonismo</Link></li>
-                    </ul>
-                </nav>
+        <div className="flex flex-col min-h-screen">
+            <header className="bg-white text-gray-800 p-4">
+                <div className="flex items-start">
+                    <div className="flex items-start">
+                        <img src="/logosalesforce.png" alt="Logo Salesforce" className="h-12 w-auto mr-2" />
+                        
+                    </div>
+                    <nav>
+                        <ul className="flex space-x-4 p-3">
+                            <li><Link to="/" className="hover:text-blue-500">HOME</Link></li>
+                            <li><Link to="/Guia" className="hover:text-blue-500">Guia</Link></li>
+                            <li><Link to="/Daltonismo" className="hover:text-blue-500">Daltonismo</Link></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
 
                 <main className="flex-grow bg-gray-500">
                     <Routes>
