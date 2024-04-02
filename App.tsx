@@ -97,8 +97,8 @@ function App() {
                 </main>
 
 
-                <footer className="bg-gradient-to-r from-blue-800 to-blue-500 text-white p-4">
-                    <p>© 2024 Salesforce-Fiap. Todos os direitos reservados - rm:554184 Gustavo Henrique Camacho Dos Santos - rm:554064 Gabriel Sá Bragança - rm:553927 Erick Lopes Silva</p>
+                <footer className="bg-blue-500 text-white p-4">
+                    <p>© 2024 Salesforce-Fiap - rm:554184 Gustavo Henrique Camacho Dos Santos - rm:554064 Gabriel Sá Bragança - rm:553927 Erick Lopes Silva</p>
                 </footer>
             </div>
         </Router>
