@@ -98,7 +98,7 @@ function App() {
 
 
                 <footer className="bg-blue-500 text-white p-4">
-                    <p>© 2024 Salesforce-Fiap - rm:554184 Gustavo Henrique Camacho Dos Santos - rm:554064 Gabriel Sá Bragança - rm:553927 Erick Lopes Silva</p>
+                    <p>© 2024 Salesforce-Fiap - rm:554184 Gustavo Henrique Camacho Dos Santos - rm:554064 Gabriel Sá Bragança - rm:553927 Erick Lopes Silva<br/> Link GitHub: https://github.com/GabrielSa-Fiap/Sprint3/tree/main</p>
                 </footer>
             </div>
         </Router>
