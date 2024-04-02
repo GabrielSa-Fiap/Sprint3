@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import Guia from './componentes/servicos/Guia';
 import Daltonismo from './componentes/servicos/Daltonismo';
@@ -99,7 +98,7 @@ function App() {
 
 
                 <footer className="bg-gradient-to-r from-blue-800 to-blue-500 text-white p-4">
-                    <p>© 2024 Salesforce-Fiap. Todos os direitos reservados</p>
+                    <p>© 2024 Salesforce-Fiap. Todos os direitos reservados - rm:554184 Gustavo Henrique Camacho Dos Santos - rm:554064 Gabriel Sá Bragança - rm:553927 Erick Lopes Silva</p>
                 </footer>
             </div>
         </Router>
